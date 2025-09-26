@@ -11,5 +11,5 @@ This folder contains the original, unprocessed datasets used for Medical Equipme
 ## File List
 
 <!-- Add details for each raw dataset here. Example:
-- equipment_usage_2024.csv: Exported from hospital EMR system, contains daily usage logs for MRI, CT, and X-ray machines from Jan-Dec 2024..
+- equipment_usage_2024.csv: Exported from hospital EMR system, contains daily usage logs for MRI, CT, and X-ray machines from Jan-Dec 2024.
 -->
