@@ -1,0 +1,26 @@
+# Never commit these sensitive or bulky files!
+**/real_patient_data/
+**/phi_data/
+**/confidential_data/
+**/*_patient_*
+**/*_phi_*
+**/*_confidential_*
+
+*.pbix  # Power BI Desktop files
+*.bak   # Backup files
+*.tmp
+*.log
+
+# Excel temporary files
+~$*.xls*
+*.tmp
+
+# Python caches and virtual environments, if you use Python
+__pycache__/
+*.py[cod]
+venv/
+env/
+
+# System files
+.DS_Store
+Thumbs.db
