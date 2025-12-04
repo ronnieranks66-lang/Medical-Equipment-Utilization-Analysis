@@ -1,0 +1,50 @@
+Resources Required Progress Log
+===============================
+
+Stage 1: Data Resources
+- Synthetic dataset representing hospital medical equipment usage:
+  - Raw file: data/raw/medical_equipment_utilization_synthetic.csv
+  - Cleaned file: data/processed/medical_equipment_utilization_synthetic_cleaned(in).csv
+- Supporting analysis files:
+  - EDA workbook: analysis/exploratory_analysis/EDA.xlsx
+  - ROI workbook: analysis/roi_calculations/ROI.xlsx
+  - Utilization workbook: analysis/utilization_metrics/Utilization data.xlsx
+
+Stage 2: Software & Libraries
+- Core language and environment:
+  - Python 3.8+ (recommended).
+- Python libraries:
+  - Data & computation: pandas, numpy.
+  - Visualization (static): matplotlib, seaborn.
+  - Visualization (interactive): plotly.
+  - Dashboards: dash, jupyter-dash.
+- Optional tooling:
+  - Jupyter Notebook / JupyterLab or VS Code with Python & Jupyter extensions.
+
+Stage 3: Hardware & Infrastructure
+- Local machine with:
+  - At least 8 GB RAM recommended for comfortable data analysis.
+  - Sufficient disk space for datasets and notebook outputs.
+- Execution environment:
+  - Local Python environment (venv or conda) or equivalent managed environment.
+
+Stage 4: Project Structure & Documentation
+- Folder structure to organize resources:
+  - data/raw and data/processed for datasets.
+  - analysis/ for EDA, utilization, and ROI notebooks/workbooks.
+  - dashboard/ for dashboard-related documentation and screenshots.
+  - presentation/ for slide decks and narrative summaries.
+  - documentation/ for progress logs and project notes (including this file).
+
+Stage 5: Human & Process Resources
+- Skills required:
+  - Data analysis with Python (pandas, numpy).
+  - Basic to intermediate data visualization skills.
+  - Familiarity with medical equipment context and hospital operations (for interpretation).
+- Processes:
+  - Iterative EDA and validation of metrics.
+  - Review cycles with stakeholders (operations, finance, clinical leadership) to interpret results.
+
+Status: COMPLETE
+
+

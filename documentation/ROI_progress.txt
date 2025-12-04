@@ -1,0 +1,36 @@
+ROI Analysis Progress Log
+=========================
+
+Stage 1: Data Preparation
+- Reused cleaned dataset from processed CSV with standardized column names.
+- Ensured currency fields (Procedure_Revenue, Daily_Operating_Cost, Net-Profit (daily)) were numeric.
+
+Stage 2: Metric Definition
+- Defined core financial metrics:
+  - Total Revenue (sum of Procedure_Revenue).
+  - Total Operating Cost (sum of Daily_Operating_Cost).
+  - Total Net Profit (sum of Net-Profit (daily)).
+- Defined ROI and profitability KPIs:
+  - ROI (%) = Net Profit / Operating Cost * 100.
+  - Profit Margin (%) = Net Profit / Revenue * 100.
+  - Average Profit per Day = Net Profit / number of observed days.
+  - Average Profit per Procedure (where used) = Net Profit / total procedures.
+
+Stage 3: Aggregation
+- Computed financial and ROI metrics:
+  - By Equipment_Type.
+  - By Department.
+  - By Month (for temporal patterns, where needed).
+
+Stage 4: ROI Visualizations
+- Built plotting notebooks to:
+  - Compare ROI (%) by equipment type and department.
+  - Compare average profit per day by equipment type and department.
+  - Highlight high-ROI vs low-ROI assets for decision-making.
+
+Stage 5: ROI Dashboards
+- Integrated ROI views into dashboard notebooks and Plotly/Dash-based tabs for interactive exploration.
+
+Status: COMPLETE
+
+

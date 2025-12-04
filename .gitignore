@@ -15,12 +15,18 @@
 ~$*.xls*
 *.tmp
 
-# Python caches and virtual environments, if you use Python
+# Python caches and virtual environments
 __pycache__/
 *.py[cod]
 venv/
 env/
 
-# System files
+# Jupyter notebook artifacts
+.ipynb_checkpoints/
+
+# Editor / OS specific
 .DS_Store
 Thumbs.db
+.vscode/
+.idea/
+
