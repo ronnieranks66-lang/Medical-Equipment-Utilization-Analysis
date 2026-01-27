@@ -1,32 +1,93 @@
-# Never commit these sensitive or bulky files!
+# ============================================================================
+# SENSITIVE & CONFIDENTIAL DATA - NEVER COMMIT!
+# ============================================================================
 **/real_patient_data/
 **/phi_data/
 **/confidential_data/
 **/*_patient_*
 **/*_phi_*
 **/*_confidential_*
+*.pii
+*.phi
 
-*.pbix  # Power BI Desktop files
-*.bak   # Backup files
-*.tmp
-*.log
-
-# Excel temporary files
-~$*.xls*
-*.tmp
-
-# Python caches and virtual environments
-__pycache__/
-*.py[cod]
+# ============================================================================
+# PYTHON VIRTUAL ENVIRONMENTS & PACKAGE MANAGEMENT
+# ============================================================================
 venv/
 env/
+ENV/
+.venv/
+.env
+.env.local
+.env.*.local
 
-# Jupyter notebook artifacts
+# ============================================================================
+# PYTHON CACHES & COMPILED FILES
+# ============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# ============================================================================
+# JUPYTER NOTEBOOK ARTIFACTS
+# ============================================================================
 .ipynb_checkpoints/
+*.ipynb_checkpoints
 
-# Editor / OS specific
-.DS_Store
-Thumbs.db
+# ============================================================================
+# IDE & EDITOR SPECIFIC FILES
+# ============================================================================
 .vscode/
 .idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# ============================================================================
+# BACKUP, TEMPORARY & LOG FILES
+# ============================================================================
+*.bak
+*.tmp
+*.log
+*.xlsx~
+~$*.xls*
+~$*.xlsx
+*.backup
+.#*
+
+# ============================================================================
+# OS SPECIFIC FILES
+# ============================================================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+
+# ============================================================================
+# POWER BI & EXCEL FILES (OPTIONAL - uncomment if needed)
+# ============================================================================
+*.pbix
+*.bak.pbix
+*.xlsx.bak
+
+# ============================================================================
+# DATA FILES (OPTIONAL - uncomment if raw data is too large for git)
+# ============================================================================
+# data/raw/
+# *.csv
 
